@@ -3007,6 +3007,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@heroicons/react@npm:^2.0.13":
+  version: 2.0.13
+  resolution: "@heroicons/react@npm:2.0.13"
+  peerDependencies:
+    react: ">= 16"
+  checksum: d1272d98c02dc17830b4a6664cd99939e1931a621f42328210e79b045801bb603dc23a62a2650b413600ff9ce476058399643c0dd662eed3fa9e4aa1ad528c95
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.6":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -23608,6 +23617,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+    "@heroicons/react": ^2.0.13
     "@redwoodjs/forms": 3.8.0
     "@redwoodjs/router": 3.8.0
     "@redwoodjs/web": 3.8.0

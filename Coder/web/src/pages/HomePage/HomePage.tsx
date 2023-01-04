@@ -1,5 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+import EmptyState from 'src/components/Create/Home/EmptyState'
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
         {/* We use less vertical padding on card headers on desktop than on body sections */}
       </div>
       <div className="px-4 py-5 sm:p-6">
-        <p>hello</p>
+        <EmptyState />
       </div>
     </>
   )
