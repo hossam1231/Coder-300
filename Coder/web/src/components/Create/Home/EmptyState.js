@@ -9,11 +9,11 @@ import {
 
 const items = [
   {
-    title: 'Create a Component',
-    description: 'Another to-do system you’ll try but eventually give up on.',
-    icon: Bars4Icon,
-    background: 'bg-pink-500',
-    route: '/Component',
+    title: 'Create a Application',
+    description: 'Great for mood boards and inspiration.',
+    icon: PhotoIcon,
+    background: 'bg-green-500',
+    route: '/Application',
   },
   {
     title: 'Create a Folder',
@@ -23,19 +23,27 @@ const items = [
     route: '/Folder',
   },
   {
-    title: 'Create a Application',
-    description: 'Great for mood boards and inspiration.',
-    icon: PhotoIcon,
-    background: 'bg-green-500',
-    route: '/Application',
-  },
-  {
-    title: 'Create a Board',
+    title: 'Create a Layout',
     description: 'Track tasks in different stages of your project.',
     icon: ViewColumnsIcon,
     background: 'bg-blue-500',
-    route: '/Board',
+    route: '/Layout',
   },
+  {
+    title: 'Create a Page',
+    description: 'Track tasks in different stages of your project.',
+    icon: ViewColumnsIcon,
+    background: 'bg-blue-500',
+    route: '/Page',
+  },
+  {
+    title: 'Create a Component',
+    description: 'Another to-do system you’ll try but eventually give up on.',
+    icon: Bars4Icon,
+    background: 'bg-pink-500',
+    route: '/Component',
+  },
+
   // {
   //   title: 'Create a Spreadsheet',
   //   description: 'Lots of numbers and things — good for nerds.',
@@ -48,7 +56,7 @@ const items = [
     icon: ClockIcon,
     background: 'bg-purple-500',
     route: '/Library',
-  },
+  }, 
 ]
 
 function classNames(...classes) {
