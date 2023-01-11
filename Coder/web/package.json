@@ -13,13 +13,17 @@
     ]
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@redwoodjs/forms": "3.8.0",
     "@redwoodjs/router": "3.8.0",
     "@redwoodjs/web": "3.8.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "highlight.js": "^11.7.0",
     "prop-types": "15.8.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

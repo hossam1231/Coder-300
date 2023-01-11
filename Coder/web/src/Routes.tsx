@@ -13,13 +13,13 @@ import HomeLayout from './layouts/HomeLayout/HomeLayout'
 const Routes = () => {
   return (
     <Router>
-      <Route path="/layout" page={LayoutPage} name="layout" />
-      <Route path="/component" page={ComponentPage} name="component" />
-      <Route path="/folder" page={FolderPage} name="folder" />
-      <Route path="/library" page={LibraryPage} name="library" />
-      <Route path="/page" page={PagePage} name="page" />
-      <Route path="/application" page={ApplicationPage} name="application" />
       <Set wrap={HomeLayout}>
+        <Route path="/layout" page={LayoutPage} name="layout" />
+        <Route path="/component" page={ComponentPage} name="component" />
+        <Route path="/folder" page={FolderPage} name="folder" />
+        <Route path="/library" page={LibraryPage} name="library" />
+        <Route path="/page" page={PagePage} name="page" />
+        <Route path="/application" page={ApplicationPage} name="application" />
         <Route path="/" page={HomePage} name="home" />
       </Set>
       <Route notfound page={NotFoundPage} />
